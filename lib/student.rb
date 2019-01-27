@@ -44,6 +44,7 @@ class Student
     end
   end
   
+<<<<<<< HEAD
   def self.create(name, grade)
     new_student = self.new(name, grade)
     new_student.save
@@ -79,4 +80,13 @@ class Student
     
     DB[:conn].execute(sql, self.name, self.grade, self.id)
   end
+=======
+  def self.create
+
+  end 
+  
+  def self
+  
+
+>>>>>>> bbd962b9500356ecc5cf6d9fde199bb705c1d3da
 end
